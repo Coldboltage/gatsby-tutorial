@@ -36,7 +36,7 @@ export const query = graphql`
         slug
         image {
           fluid {
-            ...GatsbyContentfulFluid
+            ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }
       }
