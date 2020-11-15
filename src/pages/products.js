@@ -36,7 +36,7 @@ export const query = graphql`
         slug
         image {
           fluid {
-            ...GatsbyContentfulFluid_withWebp
+            ...GatsbyContentfulFluid_withWebp_noBase64
           }
         }
       }
