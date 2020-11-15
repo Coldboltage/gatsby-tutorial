@@ -48,8 +48,7 @@ export const query = graphql`
       }
       image {
         fixed (width: 300) {
-          ...GatsbyContentfulFluid_withWebp
-
+          ...GatsbyContentfulFixed_withWebp
         }
       }
     }
